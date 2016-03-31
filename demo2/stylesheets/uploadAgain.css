@@ -5,45 +5,52 @@
 	font-family: 'Microsoft YaHei','Heiti SC',simhei,'Lucida Sans Unicode','Myriad Pro','Hiragino Sans GB',Verdana;
 }
 body {
-	background-color: #fffde6;
+	background-color: #422456;
+	position: relative;
 }
-.banner {
+.wrap {
 	width: 100%;
-	background: url('../images/banner.png') center top no-repeat;
+	background: url("../images/bg.png") no-repeat;
 	background-size: cover;
-	padding-top: 65%;
-	padding-bottom: 5%;
+	padding-bottom: 50%;
 }
-.banner_img {
+.banner img {
 	display: block;
-	margin: 0 auto;
+	width: 80%;
+	margin: 10% 0 0 20%;
 }
 
-.img_wrap {
-	width: 100%;
+.pics_wrap {
+	width: 80%;
+	min-height: 300px;
+	padding: 5% 10%;
 }
-.img_wrap img {
+.pics {
 	display: block;
 	width: 50%;
-	height: 30%;
-	margin: 10% auto 10% auto;
-	border: 2px solid #fd9d14;
-	border-radius: 10px;
+	margin: 0 auto;
+	text-align: center;
 }
-.img_wrap a {
+.pics img {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	border: 1px solid #fd9d14;
+} 
+a.try {
 	display: inline-block;
+	margin: 10% auto 0 auto;
 	width: 35%;
-	line-height: 3em;
-	font-size: 2em;
+	line-height: 2.5em;
+	font-size: 2.5em;
 	text-align: center;
 	text-decoration: none;
 	color: #fff;
-	background-color: #fd9d14; 
-	float: left;
 	border-radius: 8px;
-	margin-bottom: 5%;
+	background: #e6297a;
+	float: left;
 }
-a:nth-child(2) {
+a:first-child {
 	margin-left: 10%;
 	margin-right: 5%;
 }
@@ -52,3 +59,11 @@ a:last-child {
 	margin-right: 10%;
 }
 
+.icon {
+	display: block;
+	width: 40%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: -3%;
+}
