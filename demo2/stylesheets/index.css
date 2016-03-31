@@ -5,7 +5,7 @@
 	font-family: 'Microsoft YaHei','Heiti SC',simhei,'Lucida Sans Unicode','Myriad Pro','Hiragino Sans GB',Verdana;
 }
 body {
-	background-color: #46285a;
+	background-color: #422456;
 }
 .wrap {
 	width: 100%;
@@ -85,7 +85,7 @@ body {
 	width: 90%;
 	color: #adadad;
 	padding: 5%;
-	font-size: 2em;
+	font-size: 3em;
 	text-align: center;
 	box-shadow: 5px 5px 3px #e6297a;
 }
@@ -98,8 +98,8 @@ body {
 .btns a {
 	display: inline-block;
 	width: 45%;
-	line-height: 2em;
-	font-size: 2em;
+	line-height: 3em;
+	font-size: 2.5em;
 	text-align: center;
 	text-decoration: none;
 	color: #fff;
