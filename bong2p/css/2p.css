@@ -1,0 +1,398 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: "Hiragino Sans GB";
+}
+.allwrap {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.div1 {
+	background: url("../img/2p/1-1.jpg");
+	background-size: cover;
+	width: 1200px;
+	height: 600px;
+	padding-top: 150px;
+
+}
+.div1 .top {
+	display: block;
+	width: 120px;
+	height: 60px;
+	margin-left: 240px;
+}
+.div1 .sign {
+	display: block;
+	font-size: 50px;
+	padding-left: 300px;
+}
+.div1 .feather {
+	display: inline-block;
+	width: 100px;
+	margin-left: 200px;
+	margin-top: 50px;
+	// vertical-align: middle;
+}
+.div1 .feather .bottom {
+	display: block;
+	width: 100px;
+	height: 150px;
+}
+.div1 .feather .bak {
+	display: inline-block;
+	width: 60px;
+	height: 45px;
+	margin-left: 40px;
+}
+.div1 .buy {
+	display: inline-block;
+	color: #f81f8a;
+	margin-top: -200px;
+	vertical-align: middle;
+}
+.div1 .buy span {
+	display: inline-block;
+	line-height: 40px;
+}
+.div1 .buy a {
+	display: inline-block;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 3px;
+	border: 1px solid #f81f8a;
+	color: #f81f8a;
+	text-decoration: none;
+	vertical-align: top;
+}
+
+
+.div2 {
+	width: 1200px;
+	background: #404040;
+}
+.div2 .guide {
+	width: 1200px;
+	height: 450px;
+	background: url("../img/2p/2-1-0.png");
+	background-size: cover;
+	padding-top: 200px;
+}
+.div2 .guide p {
+	font-size: 35px;
+	color: #fff;
+	padding-left: 800px;
+}
+.div2 .detail {
+	width: 1200px;
+	height: 140px;
+	background: #404040;
+	padding-top: 35px;
+}
+.div2 .detail .oneline {
+	width: 940px;
+	line-height: 30px;
+	margin: 0 auto;
+}
+.div2 .detail .bottom .icon{
+	margin-right: 13.8px !important;
+}
+.div2 .detail .oneline .icon {
+	font-size: 12px;
+	color: #fff;
+	margin-right: 8px;
+	float: left;
+}
+.div2 .detail .oneline .icon img {
+	height: 30px;
+}
+.div2 .detail .oneline .icon p {
+	display: inline-block;
+	margin: 0 !important;
+} 
+.div2 .detail .oneline .top {
+	margin-bottom: 10px;
+}
+.div2 .detail .oneline .bright {
+	line-height: 28px;
+	background: #404040;
+	border: 1px solid #fff;
+}
+.div2 .detail .oneline .dark {
+	background: #3c3c3c;
+	line-height: 30px;
+}
+ 
+.div3 {
+	width: 1200px;
+	height: 530px;
+}
+.div3 .bg {
+	width: 600px;
+	height: 530px;
+	float: left;
+}
+.div3 .left	{
+	background: url("../img/2p/3-1.png");
+	background-size: cover;
+}
+.div3 .right {
+	background: url("../img/2p/3-2.png");
+	background-size: cover;
+}
+
+
+.div4 {
+	position: relative;
+	width: 1200px;
+	height: 450px;
+	background: url("../img/2p/4-0.jpg");
+	background-size: cover;
+	padding-top: 180px;
+	padding-left: 550px;
+}
+.div4 .left {
+	position: absolute;
+	width: 110px;
+	top: 190px;
+	left: 227px;
+}
+.div4 .right {
+	position: absolute;
+	width: 150px;
+	left: 852px;
+	top: 190px;
+}
+.div4 .intro {
+	width: 280px;
+}
+.div4 .intro p {
+	text-align: center;
+}
+.div4 .intro .title {
+	font-size: 30px;
+}
+.div4 .intro .content {
+	color: #767676;
+	font-size: 12px;
+}
+
+.div5 {
+	position: relative;
+	width: 1200px;
+	height: 520px;
+	color: #fff;
+	background: url("../img/2p/5.jpg") no-repeat;
+	background-size: cover;
+	padding-top: 225px;
+	padding-left: 220px;
+}
+.div5 .big {
+	font-size: 33px;
+}
+.div5 .small {
+	font-size: 15px;
+	margin-top: 20px;
+}
+.div5 img {
+	position: absolute;
+	width: 190px;
+	top: 200px;
+	left: 660px;
+}
+
+.div6 {
+	position: relative;
+	width: 1200px;
+	height: 520px;
+	color: #fff;
+	background: url("../img/2p/6.jpg") no-repeat;
+	background-size: cover;
+	padding-top: 270px;
+	padding-left: 700px;
+}
+.div6 .big {
+	font-size: 33px;
+	margin-bottom: 20px;
+}
+.div6 .small {
+	font-size: 15px;
+}
+.div6 img {
+	position: absolute;
+	width: 50px;
+	top: 290px;
+	left: 606px;
+}
+
+.div7 {
+	position: relative;
+	width: 1200px;
+	height: 520px;
+	background: #fff;
+	padding-top: 240px;
+	padding-left: 250px;
+}
+.div7 .left {
+	width: 390px;
+	float: left;
+}
+.div7 .left .partner, .div7 .left p, .div7 .left hr {
+	display: inline-block;
+	width: 390px;
+	color: #767676;
+}
+.div7 .left .partner {
+	margin-bottom: 20px;
+}
+.div7 .left .partner img {
+	width: 230px;
+	float: left;
+}
+.div7 .left .partner p {
+	width: 160px;
+	color: #767676;
+	font-size: 30px;
+	float: left;
+	color: #000;
+	padding-left: 10px;
+	vertical-align: middle;
+}
+.div7 .right {
+	width: 450px;
+	float: left;
+}
+.div7 .right img:first-child {
+	width: 210px;
+}
+.div7 .right img:last-child {
+	width: 220px;
+}
+
+.div8 {
+	position: relative;
+	width: 1200px;
+	height: 560px;
+	background: #f5f5f5;
+	padding-left: 450px;
+	padding-top: 140px;
+}
+.div8 .title {
+	font-size: 30px;
+	margin-bottom: 30px;
+	margin-left: 40px;
+}
+.div8 .intro {
+	font-size: 15px;
+	color: #767676;
+}
+.div8 .time {
+	margin-top: 80px;
+	margin-left: 200px;
+	font-size: 15px;
+	color: #767676;
+}
+.div8 .time p {
+	margin-bottom: 0px;
+}
+.div8 .time hr {
+	width: 280px;
+	height: 10px;
+	background: #9ddeff;
+	margin-top: 10px;
+	float: left;
+}
+.div8 span {
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 5px;
+	vertical-align: middle;
+	float: left;
+}
+.div8 .weight {
+	margin-top: 10px;
+	margin-left: 200px;
+	font-size: 15px;
+	color: #767676;
+	clear: both;
+}
+.div8 .weight p {
+	margin-bottom: 0px;
+}
+.div8 .weight hr {
+	width: 60px;
+	height: 10px;
+	background: #9dfffe;
+	margin-top: 10px;
+	float: left;
+}
+.div8 .circle {
+	position: absolute;
+	width: 210px;
+	bottom: 0px;
+	left: 200px;
+}
+.div8 .coin {
+	position: absolute;
+	width: 200px;
+	bottom: 0px;
+	left: 435px;
+}
+
+.div9 {
+	width: 800px;
+	height: 500px;
+	padding-top: 85px;
+	margin: 0 auto;
+}
+.div9 .title {
+	font-size: 20px !important;
+	font-weight: bold;
+	color: #848484;
+	margin-bottom: 30px;
+}
+.div9 .left	{
+	width: 400px;
+	float: left;
+
+}
+.div9 .left .ios {
+	height: 130px;
+}
+.div9 .left img {
+	width: 45px;
+}
+.div9 .left .ios p, .div9 .left .android p {
+	width: 334px;
+	line-height: 20px;
+	float: right;
+	font-size: 12px;
+	color: #848484;
+	margin-bottom: 0px;
+}
+.div9 .right {
+	width: 400px;
+	padding-left: 50px;
+	float: left;
+}
+.div9 .right p {
+	font-size: 12px;
+	line-height: 20px;
+	color: #848484;
+}
+.div9 .right ._left {
+	width: 110px;
+	float: left;
+	margin-bottom: 0px;
+}
+.div9 .right ._right {
+	width: 365px;
+	margin-bottom: 5px;
+}
+.div9 .right img {
+	width: 110px;
+}
+
+
+
