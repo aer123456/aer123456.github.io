@@ -1,0 +1,338 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: "Lantinghei SC";
+}
+.div {
+	width: 100%;
+}
+
+.div1 {
+	height: 17rem;
+	background: url("../img/2p/mobile/div_01.png") no-repeat center top;
+	background-size: cover;
+}
+.div1 p {
+	font-size: 1.1rem;
+	text-align: center;
+	padding-top: 2rem;
+}
+.div1 a {
+	display: block;
+	width: 3rem;
+	font-size: .6rem;
+	text-align: center;
+	text-decoration: none;
+	margin:  2.2rem  auto 0 auto;
+	color: #f81f8a;
+	border: 1px solid #f81f8a;
+}
+
+.div2 {
+	height: 16rem;
+}
+.div2 .title {
+	height: 10rem;
+	background: url("../img/2p/mobile/div_02.png") no-repeat;
+	background-size: cover;
+	background-color: #404040;
+}
+.div2 .title p {
+	font-size: .6rem;
+	color: #fff;
+	text-align: center;
+	padding-top: 3rem;
+}
+.div2 .content {
+	background: #404040;
+	height: 5rem;
+	padding: .6rem 3% .6rem 3%;
+}
+.div2 .content .icon {
+	line-height: 1rem;
+	height: 1rem;
+	margin-bottom: .1rem;
+	text-align: center;
+	float: left;
+}
+.div2 .content .left {
+	margin-right: .2rem;
+}
+.div2 .content .dark {
+	background: #3c3c3c;
+	border: 1px solid #3c3c3c;
+}
+.div2 .content .bright {
+	border: 1px solid #fff;
+}
+.div2 .content .icon img {
+	display: inline-block;
+	vertical-align: middle;
+	height: .9rem;
+	float: left;
+}
+.div2 .content p {
+	display: inline-block;
+	color: #fff;
+	font-size: .2rem;
+	line-height: 1rem;
+}
+
+.title {
+	font-size: .8rem;
+	text-align: center;
+}
+.intro {
+	font-size: .4rem;
+	width: 7rem;
+	text-align: center;
+}
+
+.div3 {
+	height: 13rem;
+	background: url("../img/2p/mobile/div_03.png") no-repeat;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+}
+.div3 .title {
+	padding: 2rem 0 1.2rem 0;
+}
+.div3 .intro {
+	margin: 0 auto;
+}
+
+.div4 {
+	height: 13rem;
+	background: url("../img/2p/mobile/div_04.png") no-repeat;
+	background-size: cover;
+	color: #fff;
+	text-align: center;
+}
+.div4 .title {
+	padding: 2rem 0 .8rem 0;
+}
+.div4 .intro {
+	margin: 0 auto;
+}
+
+.div5 {
+	height: 18rem;
+	background: url("../img/2p/mobile/div_05.png") no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.div5 .title {
+	padding: 2rem 0 .8rem 0;
+}
+.div5 .intro {
+	width: 9rem;
+	color: #767676;
+	line-height: .7rem;
+	margin: 0 auto;
+}
+
+.div6 {
+	height: 15rem;
+	background: url("../img/2p/mobile/div_06.png") no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+.div6 .title {
+	padding: 2.5rem 0 .8rem 0;
+}
+.div6 .intro {
+	width: 6.5rem;
+	color: #fff;
+	line-height: .8rem;
+	margin: 0 auto;
+}
+
+.div7 {
+	height: 13rem;
+	background: url("../img/2p/mobile/div_07.png") no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+	padding-top: 2rem;
+}
+.div7 .text {
+	width: 9rem;
+	height: 4.3rem;
+	margin: 0 auto;
+	background: #000;
+	opacity: 0.5;
+}
+.div7 .title {
+	padding: 0.5rem 0 .8rem 0;
+}
+.div7 .intro {
+	width: 8rem;
+	color: #fff;
+	line-height: .8rem;
+	margin: 0 auto;
+}
+
+.div8 {
+	height: 15rem;
+	background: url("../img/2p/mobile/div_08.png") no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+.div8 .intros {
+	width: 10rem;
+	font-size: .4rem;
+	color: #767676;
+	padding-top: 3.8rem;
+}
+.div8 .hr {
+	width: 9rem;
+	height: 1px;
+	background-color: #767676;
+	margin: .3rem auto;
+}
+.div8 .intro {
+	width: 9rem;
+	color: #767676;
+	line-height: .6rem;
+	margin: 0 auto;
+	font-size: .35rem;
+}
+
+.div9 {
+	height: 17.5rem;
+	background: url("../img/2p/mobile/div_09.png") no-repeat;
+	background-size: cover;
+	text-align: center;
+	color: #fff;
+}
+.div9 .title {
+	font-size: .67rem;
+	color: #0d0d0d;
+	padding-top: 1.5rem;
+	padding-bottom: .5rem;
+}
+.div9 .intro {
+	color: #767676;
+	width: 8rem;
+	margin: 0 auto;
+	line-height: .8rem;
+}
+.div9 .introl {
+	display: block;
+	color: #767676;
+	width: 8rem;
+	margin: 0 auto;
+	font-size: .4rem;
+	line-height: .8rem;
+	text-align: left;
+	clear: both;
+}
+.div9 .blue {
+	line-height: .5rem;
+	width: 8rem;
+	margin: 0 auto;
+}
+.div9 .blue .color {
+	width: 6rem;
+	height: .3rem;
+	background-color: #9ddeff;
+	margin-top: .2rem;
+	margin-right: .2rem;
+	float: left;
+}
+.div9 .blue p {
+	display: inline-block;
+	float: left;
+	width: 1rem;
+}
+.div9 .green {
+	line-height: .5rem;
+	width: 5rem;
+	margin-left: 1rem;
+}
+.div9 .green .color {
+	width: 2rem;
+	height: .3rem;
+	background-color: #9dfffe;
+	margin-top: .2rem;
+	margin-right: .2rem;
+	float: left;
+}
+.div9 .green p {
+	display: inline-block;
+	float: left;
+	width: 1.5rem;
+}
+
+.div10 {
+	height: 25rem;
+	width: 9rem;
+	margin: 0 auto;
+}
+.div10 p {
+	color: #848484;
+}
+.div10 .title:first-child {
+	margin-top: 1.5rem;
+	margin-bottom: .5rem;
+}
+.div10 .contents {
+	width: 9rem;
+}
+.div10 .contents img {
+	width: 1.5rem;
+	height: 1.5rem;
+	margin-right: .5rem;
+	float: left;
+}
+.div10 .contents p {
+	width: 7rem;
+	font-size: .3rem;
+	line-height: .6rem;
+	float: left;
+}
+.div10 ._left {
+	display: inline-block;
+	width: 2.5rem;
+	font-size: .3rem;
+	line-height: .6rem;
+	float: left;
+}
+.div10 ._right {
+	display: inline-block;
+	width: 6.5rem;
+	font-size: .3rem;
+	line-height: .6rem;
+	float: left;
+}
+.div10 .charge {
+	width: 3rem;
+	height: 2.5rem;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
