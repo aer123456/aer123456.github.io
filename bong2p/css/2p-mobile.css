@@ -9,14 +9,19 @@
 }
 
 .div1 {
-	height: 17rem;
-	background: url("../img/2p/mobile/div_01.png") no-repeat center top;
-	background-size: cover;
+	position: relative;
+	height: 14rem;
+	padding-top: 2rem;
+	background: #efefef;
+}
+.div1 .logo {
+	display: block;
+	width: 4rem;
+	margin: .2rem auto 0 auto;
 }
 .div1 p {
 	font-size: 1.1rem;
 	text-align: center;
-	padding-top: 2rem;
 }
 .div1 a {
 	display: block;
@@ -24,19 +29,37 @@
 	font-size: .6rem;
 	text-align: center;
 	text-decoration: none;
-	margin:  2.2rem  auto 0 auto;
+	margin: .5rem  auto 0 auto;
 	color: #f81f8a;
 	border: 1px solid #f81f8a;
+}
+.div1 .f1 {
+	position: absolute;
+	width: 1.2rem;
+	height: 3rem;
+	top: 5rem;
+	left: 1rem;
+}
+.div1 .circle {
+	display: block;
+	width: 9rem;
+	height: 7rem;
+	margin:  1.5rem auto 0 auto;
+
 }
 
 .div2 {
 	height: 16rem;
 }
+.div2 .wrap1 {
+	text-align: center;
+	background: #4b4b4b;
+}
 .div2 .title {
+	position: relative;
 	height: 10rem;
-	background: url("../img/2p/mobile/div_02.png") no-repeat;
-	background-size: cover;
-	background-color: #404040;
+	width: 10rem;
+	margin: 0 auto;
 }
 .div2 .title p {
 	font-size: .6rem;
@@ -44,10 +67,22 @@
 	text-align: center;
 	padding-top: 3rem;
 }
+.div2 .title img {
+	position: absolute;
+	width: 9rem;
+	height: 5rem;
+	bottom: 0;
+	right: 0;
+}
+.div2 .wrap2 {
+	background: #404040;
+}
 .div2 .content {
 	background: #404040;
+	width: 9.6rem;
 	height: 5rem;
-	padding: .6rem 3% .6rem 3%;
+	padding: .6rem 0;
+	margin: 0 auto;
 }
 .div2 .content .icon {
 	line-height: 1rem;
@@ -69,13 +104,13 @@
 .div2 .content .icon img {
 	display: inline-block;
 	vertical-align: middle;
-	height: .9rem;
+	height: .8rem;
 	float: left;
 }
-.div2 .content p {
+.div2 .wrap2 .content p {
 	display: inline-block;
 	color: #fff;
-	font-size: .2rem;
+	font-size: .22rem;
 	line-height: 1rem;
 }
 
@@ -90,8 +125,8 @@
 }
 
 .div3 {
-	height: 13rem;
-	background: url("../img/2p/mobile/div_03.png") no-repeat;
+	height: 14rem;
+	background: url("../img/2p/mobile/div_3.png") no-repeat;
 	background-size: cover;
 	color: #fff;
 	text-align: center;
@@ -100,12 +135,19 @@
 	padding: 2rem 0 1.2rem 0;
 }
 .div3 .intro {
+	line-height: .7rem;
+	font-size: .4rem;
 	margin: 0 auto;
+}
+.div3 img {
+	width: 7rem;
+	height: 4rem;
+	margin: 1rem auto .5rem auto;
 }
 
 .div4 {
-	height: 13rem;
-	background: url("../img/2p/mobile/div_04.png") no-repeat;
+	height: 14rem;
+	background: url("../img/2p/mobile/div_4.png") no-repeat;
 	background-size: cover;
 	color: #fff;
 	text-align: center;
@@ -114,13 +156,20 @@
 	padding: 2rem 0 .8rem 0;
 }
 .div4 .intro {
+	font-size: .4rem;
+	line-height: .7rem;
 	margin: 0 auto;
+}
+.div4 img {
+	display: block;
+	width: 8rem;
+	height: 3.5rem;
+	margin: .5rem auto 0 auto;
 }
 
 .div5 {
-	height: 18rem;
-	background: url("../img/2p/mobile/div_05.png") no-repeat;
-	background-size: cover;
+	height: 19rem;
+	background: #f5f5f5;
 	text-align: center;
 }
 .div5 .title {
@@ -132,6 +181,21 @@
 	line-height: .7rem;
 	margin: 0 auto;
 }
+.div5 .hand {
+	display: block;
+	/* width: 10rem;
+	height: 3.5rem; */
+	width: 100%;
+	heihgt: 30%;
+	margin: 1rem auto;
+}
+.div5 .phone {
+	display: block;
+	width: 4rem;
+	height: 5rem;
+	margin: 0 auto;
+}
+
 
 .div6 {
 	height: 15rem;
@@ -176,17 +240,49 @@
 }
 
 .div8 {
-	height: 15rem;
-	background: url("../img/2p/mobile/div_08.png") no-repeat;
-	background-size: cover;
+	position: relative;
+	height: 13.5rem;
 	text-align: center;
 	color: #fff;
+}
+.div8 .partner {
+	width: 9rem;
+	height: 1rem;
+	margin: 2rem auto 1rem auto;
+}
+.div8 .partner .bong {
+	display: inline-block;
+	width: 2rem;
+	height: 1rem;
+	float: left;
+}
+.div8 .partner .meizu {
+	display: inline-block;
+	width: 3rem;
+	height: .5rem;
+	padding-top: .2rem;
+	float: left;	
+}
+.div8 .partner .x {
+	display: inline-block;
+	color: #000;
+	font-size: .5rem;
+	padding: .1rem .2rem 0 .2rem;
+	float: left;
+}
+.div8 .partner .part {
+	display: inline-block;
+	font-size: .6rem;
+	color: #000;
+	padding: .1rem 0 0 .2rem;
+	float: left;
 }
 .div8 .intros {
 	width: 10rem;
 	font-size: .4rem;
 	color: #767676;
-	padding-top: 3.8rem;
+	margin: 0 auto;
+	clear: both;
 }
 .div8 .hr {
 	width: 9rem;
@@ -201,13 +297,27 @@
 	margin: 0 auto;
 	font-size: .35rem;
 }
+.div8 .sss {
+	position: absolute;
+	width: 4.8rem;
+	height: 7.2rem;
+	bottom: 0;
+	left: 0;
+}
+.div8 .ssss {
+	position: absolute;
+	width: 4.8rem;
+	height: 7rem;
+	bottom: 0;
+	right: 0;
+}
 
 .div9 {
-	height: 17.5rem;
-	background: url("../img/2p/mobile/div_09.png") no-repeat;
-	background-size: cover;
+	position: relative;
+	height: 18.rem;
 	text-align: center;
 	color: #fff;
+	background-color: #f5f5f5;
 }
 .div9 .title {
 	font-size: .67rem;
@@ -251,8 +361,8 @@
 }
 .div9 .green {
 	line-height: .5rem;
-	width: 5rem;
-	margin-left: 1rem;
+	width: 8rem;
+	margin: 0 auto;
 }
 .div9 .green .color {
 	width: 2rem;
@@ -266,6 +376,13 @@
 	display: inline-block;
 	float: left;
 	width: 1.5rem;
+}
+.div9 img {
+	/*position: absolute;*/
+	display: block;
+	width: 10rem;
+	height: 8.5rem;
+	margin: 0 auto;
 }
 
 .div10 {
