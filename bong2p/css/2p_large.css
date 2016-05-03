@@ -5,7 +5,7 @@
 	font-family: "Hiragino Sans GB";
 }
 .allwrap {
-	width: 1200px;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -15,6 +15,7 @@
 	width: 1200px;
 	height: 600px;
 	padding-top: 150px;
+	margin: 0 auto;
 
 }
 .div1 .top {
@@ -71,6 +72,7 @@
 .div2 {
 	width: 1200px;
 	background: #404040;
+	margin: 0 auto;
 }
 .div2 .guide {
 	width: 1200px;
@@ -127,6 +129,7 @@
 .div3 {
 	width: 1200px;
 	height: 530px;
+	margin: 0 auto;
 }
 .div3 .bg {
 	width: 600px;
@@ -151,6 +154,7 @@
 	background-size: cover;
 	padding-top: 180px;
 	padding-left: 550px;
+	margin: 0 auto;
 }
 .div4 .left {
 	position: absolute;
@@ -187,6 +191,7 @@
 	background-size: cover;
 	padding-top: 225px;
 	padding-left: 220px;
+	margin: 0 auto;
 }
 .div5 .big {
 	font-size: 33px;
@@ -211,6 +216,7 @@
 	background-size: cover;
 	padding-top: 270px;
 	padding-left: 700px;
+	margin: 0 auto;
 }
 .div6 .big {
 	font-size: 33px;
@@ -233,6 +239,7 @@
 	background: #fff;
 	padding-top: 240px;
 	padding-left: 250px;
+	margin: 0 auto;
 }
 .div7 .left {
 	width: 390px;
@@ -277,6 +284,7 @@
 	background: #f5f5f5;
 	padding-left: 450px;
 	padding-top: 140px;
+	margin: 0 auto;
 }
 .div8 .title {
 	font-size: 30px;
