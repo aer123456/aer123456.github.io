@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-family: "Hiragino Sans GB";
+	font-family: "Lantinghei SC";
 }
 .allwrap {
 	width: 100%;
@@ -10,47 +10,74 @@
 }
 
 .div1 {
-	background: url("../img/2p/1-1.jpg");
-	background-size: cover;
-	width: 1200px;
-	height: 600px;
-	padding-top: 150px;
+	width: 100%;
+	// width: 1800px;
+	height: 800px;
+	background-color: #f5f5f5;
+	padding-top: 100px;
 	margin: 0 auto;
 
 }
+.div1 .wrap {
+	width: 1800px;
+	margin: 0 auto;
+}
+.div1 .wrap .left, .div1 .wrap  .right {
+	float: left;
+}
 .div1 .top {
 	display: block;
-	width: 120px;
-	height: 60px;
-	margin-left: 240px;
+	width: 250px;
+	height: 140px;
+	margin-left: 360px;
 }
 .div1 .sign {
 	display: block;
 	font-size: 50px;
-	padding-left: 300px;
+	padding-left: 450px;
 }
 .div1 .feather {
+	position: relative;
 	display: inline-block;
 	width: 100px;
-	margin-left: 200px;
-	margin-top: 50px;
-	// vertical-align: middle;
+	margin-left: 95px;
+	margin-top: 30px;
+	float: left;
 }
 .div1 .feather .bottom {
+	position: absolute;
 	display: block;
-	width: 100px;
-	height: 150px;
+	width: 220px;
+	height: 400px;
+	top: -100px;
+	left: 130px;
 }
 .div1 .feather .bak {
+	position: absolute;
 	display: inline-block;
-	width: 60px;
-	height: 45px;
-	margin-left: 40px;
+	width: 150px;
+	height: 100px;
+	margin-left: 50px;
+	top: 300px;
+	left: 150px;
+}
+.div1 .left .twop img {
+	display: inline-block;
+	width: 100px;
+	height: 55px;
+	margin-left: 255px;
+	float: left;
+}
+.div1 .left .twop p {
+	display: inline-block;
+	font-size: 40px;
+	margin-left: 20px;
 }
 .div1 .buy {
 	display: inline-block;
 	color: #f81f8a;
-	margin-top: -200px;
+	margin-left: 450px;
+	margin-top: 15px;
 	vertical-align: middle;
 }
 .div1 .buy span {
@@ -60,54 +87,111 @@
 .div1 .buy a {
 	display: inline-block;
 	font-size: 20px;
-	font-weight: bold;
 	padding: 3px;
 	border: 1px solid #f81f8a;
 	color: #f81f8a;
 	text-decoration: none;
 	vertical-align: top;
 }
-
+.div1 .right img {
+	display: block;
+	width: 600px;
+	margin-top: 50px;
+	margin-left: 200px;
+}
 
 .div2 {
-	width: 1200px;
-	background: #404040;
+	width: 100%;
+	// width: 1800px;
+	background: #4b4b4b;
+}
+.div2 .guide_wrap {
+	position: relative;
+	width: 1800px;
+	height: 600px;
+	background-color: #4b4b4b;
 	margin: 0 auto;
+	overflow: hidden;
+}
+.div2 .img {
+	float: left;
+}
+.div2 .img img {
+	position: absolute;
+	margin-top: 100px;
+	width: 450px;
+	bottom: -30px;
+}
+.div2 .img .img1 {
+	margin-left: 250px;
+	z-index: 999;
+}
+.div2 .img .img2 {
+	z-index: 888;
+	margin-left: 500px;
+}
+.div2 .img .img3 {
+	z-index: 777;
+	margin-left: 740px;
 }
 .div2 .guide {
-	width: 1200px;
 	height: 450px;
-	background: url("../img/2p/2-1-0.png");
-	background-size: cover;
-	padding-top: 200px;
+	padding-top: 160px;
 }
 .div2 .guide p {
-	font-size: 35px;
+	font-size: 50px;
 	color: #fff;
-	padding-left: 800px;
+	padding-left: 1300px;
 }
 .div2 .detail {
-	width: 1200px;
-	height: 140px;
+	width: 100%;
+	height: 200px;
 	background: #404040;
 	padding-top: 35px;
 }
 .div2 .detail .oneline {
-	width: 940px;
-	line-height: 30px;
+	width: 1500px;
+	line-height: 60px;
 	margin: 0 auto;
 }
 .div2 .detail .bottom .icon{
-	margin-right: 13.8px !important;
+	margin-right: 18px !important;
 }
 .div2 .detail .oneline .icon {
-	font-size: 12px;
+	font-size: 20px;
 	color: #fff;
-	margin-right: 8px;
+	margin-right: 10px;
 	float: left;
 }
+.div2 .detail .oneline .icon1 {
+	width: 315px;
+}
+.div2 .detail .oneline .icon2 {
+	width: 210px;
+}.div2 .detail .oneline .icon3 {
+	width: 195px;
+}.div2 .detail .oneline .icon4 {
+	width: 143px;
+}.div2 .detail .oneline .icon5 {
+	width: 240px;
+}.div2 .detail .oneline .icon6 {
+	width: 225px;
+}.div2 .detail .oneline .icon7 {
+	width: 285px;
+}.div2 .detail .oneline .icon8 {
+	width: 165px;
+}.div2 .detail .oneline .icon9 {
+	width: 248px;
+}.div2 .detail .oneline .icon10 {
+	width: 195px;
+}.div2 .detail .oneline .icon11 {
+	width: 195px;
+}
+.div2 .detail .oneline .icon12 {
+	width: 195px;
+}
 .div2 .detail .oneline .icon img {
-	height: 30px;
+	height: 40px;
 }
 .div2 .detail .oneline .icon p {
 	display: inline-block;
@@ -127,163 +211,283 @@
 }
  
 .div3 {
-	width: 1200px;
-	height: 530px;
+	width: 100%;
+	// width: 1800px;
+	height: 800px;
 	margin: 0 auto;
 }
 .div3 .bg {
-	width: 600px;
-	height: 530px;
+	width: 50%;
 	float: left;
 }
 .div3 .left	{
+	height: 800px;
 	background: url("../img/2p/3-1.png");
 	background-size: cover;
 }
+.div3 .left .content {
+	display: none;
+	width: 100%;
+	height: 800px;
+	background: url("../img/2p/3-1-2.png");
+	background-size: cover;
+}
+.div3 .left .content .wrap {
+	width: 800px;
+	height: 800px;
+	color: #fff;
+	font-family: "Lantinghei SC";
+	padding-top: 100px;
+	padding-left: 170px;
+	float: right;
+}
+.div3 .left .content .title {
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.div3 .left .content .small {
+	font-size: 20px;
+	text-align: center;
+	font-weight: lighter;
+}
+.div3 .left .content img {
+	width: 500px;
+	margin-left: 50px;
+	margin-top: 35px;
+}
+.div3 .left .content .bottom {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 40px;
+}
 .div3 .right {
+	height: 800px;
 	background: url("../img/2p/3-2.png");
 	background-size: cover;
 }
-
+.div3 .right .content {
+	display: none;
+	width: 100%;
+	height: 800px;
+	background: url("../img/2p/3-2-2.png");
+	background-size: cover;
+}
+.div3 .right .content .wrap {
+	width: 800px;
+	height: 800px;
+	color: #fff;
+	font-family: "Lantinghei SC";
+	padding-top: 100px;
+	padding-right: 170px;
+	float: left;
+}
+.div3 .right .content .title {
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.div3 .right .content .small {
+	font-size: 20px;
+	text-align: center;
+	font-weight: lighter;
+}
+.div3 .right .content img {
+	width: 600px;
+	margin-left: 90px;
+	margin-top: 41px;
+}
+.div3 .right .content .bottom {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 35px;
+}
 
 .div4 {
 	position: relative;
-	width: 1200px;
-	height: 450px;
-	background: url("../img/2p/4-0.jpg");
-	background-size: cover;
-	padding-top: 180px;
-	padding-left: 550px;
+	width: 100%;
+	// width: 1800px;
+	height: 600px;
+	background-color: #f5f5f5;
+}
+.div4 .wrap{
+	width: 400px;
+	height: 600px;
+	padding-top: 200px;
 	margin: 0 auto;
+}
+.div4 .left_shake {
+	position: absolute;
+	left: 0;
+	top: 200px;
+	width: 500px;
+}
+.div4 .hand {
+	width: 600px;
 }
 .div4 .left {
 	position: absolute;
-	width: 110px;
-	top: 190px;
-	left: 227px;
+	width: 130px;
+	top: 0px;
+	left: 250px;
 }
 .div4 .right {
 	position: absolute;
-	width: 150px;
-	left: 852px;
-	top: 190px;
+	width: 120px;
+	height: 249px;
+	right: 150px;
+	top: 180px;
+}
+.div4 .right_shakes {
+	position: absolute;
+	width: 170px;
+	height: 140px;
+	right: 125px;
+	top: 200px;
 }
 .div4 .intro {
-	width: 280px;
+	width: 520px;
 }
 .div4 .intro p {
 	text-align: center;
 }
 .div4 .intro .title {
-	font-size: 30px;
+	font-size: 50px;
 }
 .div4 .intro .content {
 	color: #767676;
-	font-size: 12px;
+	font-size: 20px;
 }
 
 .div5 {
 	position: relative;
-	width: 1200px;
-	height: 520px;
+	// width: 1800px;
+	width: 100%;
+	height: 800px;
 	color: #fff;
 	background: url("../img/2p/5.jpg") no-repeat;
 	background-size: cover;
-	padding-top: 225px;
-	padding-left: 220px;
+	padding-top: 400px;
+	padding-left: 30%;
 	margin: 0 auto;
 }
 .div5 .big {
-	font-size: 33px;
+	font-size: 50px;
 }
 .div5 .small {
-	font-size: 15px;
-	margin-top: 20px;
-}
-.div5 img {
-	position: absolute;
-	width: 190px;
-	top: 200px;
-	left: 660px;
+	font-size: 25px;
+	margin-top: 30px;
 }
 
 .div6 {
 	position: relative;
-	width: 1200px;
-	height: 520px;
+	// width: 1800px;
+	width: 100%;
+	height: 800px;
 	color: #fff;
 	background: url("../img/2p/6.jpg") no-repeat;
 	background-size: cover;
-	padding-top: 270px;
-	padding-left: 700px;
+	padding-top: 400px;
+	padding-left: 85%;
 	margin: 0 auto;
 }
 .div6 .big {
-	font-size: 33px;
-	margin-bottom: 20px;
+	font-size: 50px;
+	margin-bottom: 50px;
 }
 .div6 .small {
-	font-size: 15px;
-}
-.div6 img {
-	position: absolute;
-	width: 50px;
-	top: 290px;
-	left: 606px;
+	font-size: 25px;
 }
 
 .div7 {
 	position: relative;
-	width: 1200px;
-	height: 520px;
+	width: 1800px;
+	height: 800px;
 	background: #fff;
-	padding-top: 240px;
+	padding-top: 370px;
 	padding-left: 250px;
 	margin: 0 auto;
 }
 .div7 .left {
-	width: 390px;
+	width: 600px;
 	float: left;
 }
 .div7 .left .partner, .div7 .left p, .div7 .left hr {
 	display: inline-block;
-	width: 390px;
+	width: 550px;
 	color: #767676;
 }
 .div7 .left .partner {
-	margin-bottom: 20px;
+	margin-bottom: 45px;
 }
 .div7 .left .partner img {
-	width: 230px;
+	width: 350px;
 	float: left;
 }
 .div7 .left .partner p {
-	width: 160px;
+	width: 185px;
 	color: #767676;
-	font-size: 30px;
+	font-size: 35px;
 	float: left;
-	color: #000;
 	padding-left: 10px;
+	padding-top: 10px;
 	vertical-align: middle;
 }
+.div7 .one {
+	font-size: 24px;
+}
+.div7 .flyme_p {
+	font-size: 20px;
+  color: #bbbdbf;
+}
+.div7 .unlock_p {
+	font-size: 20px;
+	color: #bbbdbf;
+}
+}
 .div7 .right {
-	width: 450px;
+	position: relative;
+	width: 600px;
+	height: 400px;
 	float: left;
 }
-.div7 .right img:first-child {
-	width: 210px;
+.div7 .right .flyme_wrap {
+	display: inline-block;
+	width: 285px;
+	height: 430px;
+	background: url("../img/2p/7-2-1.jpg");
+	background-size: cover;
+	float: left;
 }
-.div7 .right img:last-child {
-	width: 220px;
+.div7 .right .unlock_wrap {
+	display: inline-block;
+	width: 315px;
+	height: 430px;
+	background: url("../img/2p/7-3-1.png");
+	background-size: cover;
+	float: left;
+}
+.div7 .right .flyme_wrap img {
+	width: 285px;
+	height: 430px;
+}
+.div7 .right .unlock_wrap img {
+	width: 315px;
+	height: 430px;
 }
 
 .div8 {
+	width: 100%;
+	// width: 1800px;
+	background-color: #f5f5f5;
+}
+.div8 .wrap {
 	position: relative;
-	width: 1200px;
-	height: 560px;
+	width: 1800px;
+	height: 800px;
 	background: #f5f5f5;
-	padding-left: 450px;
-	padding-top: 140px;
+	padding-left: 800px;
+	padding-top: 240px;
 	margin: 0 auto;
 }
 .div8 .title {
@@ -292,20 +496,32 @@
 	margin-left: 40px;
 }
 .div8 .intro {
-	font-size: 15px;
+	font-size: 18px;
 	color: #767676;
 }
 .div8 .time {
 	margin-top: 80px;
 	margin-left: 200px;
-	font-size: 15px;
+	font-size: 18px;
 	color: #767676;
 }
 .div8 .time p {
 	margin-bottom: 0px;
 }
-.div8 .time hr {
+.div8 .weight div {
+	display: inline-block;
+	width: 60px;
+	height: 10px;
+	float: left;
+}
+.div8 .time div {
+	display: inline-block;
 	width: 280px;
+	height: 10px;
+	float: left;
+}
+.div8 .time hr {
+	width: 0px;
 	height: 10px;
 	background: #9ddeff;
 	margin-top: 10px;
@@ -321,7 +537,7 @@
 .div8 .weight {
 	margin-top: 10px;
 	margin-left: 200px;
-	font-size: 15px;
+	font-size: 18px;
 	color: #767676;
 	clear: both;
 }
@@ -329,7 +545,7 @@
 	margin-bottom: 0px;
 }
 .div8 .weight hr {
-	width: 60px;
+	width: 0px;
 	height: 10px;
 	background: #9dfffe;
 	margin-top: 10px;
@@ -337,69 +553,70 @@
 }
 .div8 .circle {
 	position: absolute;
-	width: 210px;
+	width: 300px;
 	bottom: 0px;
-	left: 200px;
+	left: 360px;
 }
 .div8 .coin {
 	position: absolute;
-	width: 200px;
+	width: 300px;
 	bottom: 0px;
-	left: 435px;
+	left: 700px;
 }
 
 .div9 {
-	width: 800px;
-	height: 500px;
-	padding-top: 85px;
+	width: 1800px;
+	height: 900px;
+	padding-top: 150px;
+	padding-left: 300px;
 	margin: 0 auto;
 }
 .div9 .title {
-	font-size: 20px !important;
+	font-size: 30px !important;
 	font-weight: bold;
 	color: #848484;
-	margin-bottom: 30px;
+	margin-bottom: 45px;
 }
 .div9 .left	{
-	width: 400px;
+	width: 600px;
 	float: left;
 
 }
 .div9 .left .ios {
-	height: 130px;
+	height: 300px;
 }
 .div9 .left img {
-	width: 45px;
+	width: 80px;
 }
 .div9 .left .ios p, .div9 .left .android p {
-	width: 334px;
+	width: 450px;
 	line-height: 20px;
 	float: right;
-	font-size: 12px;
+	font-size: 18px;
 	color: #848484;
 	margin-bottom: 0px;
 }
 .div9 .right {
-	width: 400px;
-	padding-left: 50px;
+	width: 700px;
+	padding-left: 100px;
 	float: left;
 }
 .div9 .right p {
-	font-size: 12px;
-	line-height: 20px;
+	font-size: 18px;
+	line-height: 30px;
 	color: #848484;
 }
 .div9 .right ._left {
-	width: 110px;
+	width: 150px;
 	float: left;
 	margin-bottom: 0px;
 }
 .div9 .right ._right {
-	width: 365px;
+	width: 550px;
 	margin-bottom: 5px;
 }
 .div9 .right img {
-	width: 110px;
+	width: 200px;
 }
 
 

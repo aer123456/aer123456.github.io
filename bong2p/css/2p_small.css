@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-family: "Hiragino Sans GB";
+	font-family: "Lantinghei SC";
 }
 .allwrap {
 	width: 100%;
@@ -47,7 +47,7 @@
 	display: block;
 	width: 100px;
 	height: 150px;
-	top: 150px;
+	top: 200px;
 }
 .div1 .feather .bak {
 	position: absolute;
@@ -83,7 +83,6 @@
 .div1 .buy a {
 	display: inline-block;
 	font-size: 20px;
-	font-weight: bold;
 	padding: 3px;
 	border: 1px solid #f81f8a;
 	color: #f81f8a;
@@ -115,7 +114,7 @@
 	position: absolute;
 	margin-top: 100px;
 	width: 220px;
-	bottom: -50px;
+	bottom: -30px;
 }
 .div2 .img .img1 {
 	z-index: 999;
@@ -152,10 +151,13 @@
 .div2 .detail .bottom .icon{
 	margin-right: 13.8px !important;
 }
+.div2 .detail .bottom .icon p {
+	padding-right: 3px;
+}
 .div2 .detail .oneline .icon {
 	font-size: 12px;
 	color: #fff;
-	margin-right: 8px;
+	margin-right: 7px;
 	float: left;
 }
 .div2 .detail .oneline .icon img {
@@ -164,7 +166,7 @@
 }
 .div2 .detail .oneline .icon p {
 	display: inline-block;
-	margin: 0 3px 0 0  !important;
+	margin: 0 3px 0 0;
 } 
 .div2 .detail .oneline .top {
 	margin-bottom: 10px;
@@ -350,12 +352,6 @@
 	font-size: 15px;
 	margin-top: 20px;
 }
-.div5 img {
-	position: absolute;
-	width: 190px;
-	top: 200px;
-	left: 660px;
-}
 
 .div6 {
 	position: relative;
@@ -375,12 +371,6 @@
 }
 .div6 .small {
 	font-size: 15px;
-}
-.div6 img {
-	position: absolute;
-	width: 50px;
-	top: 290px;
-	left: 606px;
 }
 
 .div7 {
@@ -423,11 +413,29 @@
 	height: 310px;
 	float: left;
 }
-.div7 .right img:first-child {
+.div7 .right .flyme_wrap {
+	display: inline-block;
+	width: 216px;
+	height: 310px;
+	background: url("../img/2p/7-2-1.jpg");
+	background-size: cover;
+	float: left;
+}
+.div7 .right .unlock_wrap {
+	display: inline-block;
+	width: 223px;
+	height: 310px;
+	background: url("../img/2p/7-3-1.png");
+	background-size: cover;
+	float: left;
+}
+.div7 .right .flyme_wrap img {
+	display: none;
 	width: 216px;
 	height: 310px;
 }
-.div7 .right img:last-child {
+.div7 .right .unlock_wrap img {
+	display: none;
 	width: 223px;
 	height: 310px;
 }
@@ -462,12 +470,18 @@
 .div8 .time p {
 	margin-bottom: 0px;
 }
+.div8 .time div {
+	display: inline-block;
+	width: 280px;
+	height: 10px;
+	float: left;
+}
 .div8 .time hr {
 	width: 0px;
 	height: 10px;
 	background: #9ddeff;
 	margin-top: 10px;
-	float: left;
+	
 }
 .div8 span {
 	display: inline-block;
@@ -485,12 +499,17 @@
 .div8 .weight p {
 	margin-bottom: 0px;
 }
+.div8 .weight div {
+	display: inline-block;
+	width: 60px;
+	height: 10px;
+	float: left;
+}
 .div8 .weight hr {
 	width: 0px;
 	height: 10px;
 	background: #9dfffe;
 	margin-top: 10px;
-	float: left;
 }
 .div8 .circle {
 	position: absolute;
