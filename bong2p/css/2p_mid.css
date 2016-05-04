@@ -409,7 +409,7 @@
 .div7 .left .partner, .div7 .left p, .div7 .left hr {
 	display: inline-block;
 	width: 390px;
-	color: #767676;
+	color: #bbbdbf;
 }
 .div7 .left .partner {
 	margin-bottom: 20px;
@@ -461,10 +461,12 @@
 	float: left;
 }
 .div7 .right .flyme_wrap img {
+	display: none;
 	width: 216px;
 	height: 310px;
 }
 .div7 .right .unlock_wrap img {
+	display: none;
 	width: 220px;
 	height: 310px;
 }

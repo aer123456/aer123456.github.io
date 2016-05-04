@@ -30,60 +30,117 @@ window.onload = function() {
 
 	/* 第三帧的鼠标移入移出效果 */
 	$('.div3 .left').mouseenter(function(){
-		$('.div3 .left .content').show("slow");
-		// $('.div3 .left .content').css('display', 'block');
+		$(".div3 .left .content").fadeIn("slow","linear");
 	});
-	$('.div3 .left').mouseleave(function(){	
-		$('.div3 .left .content').hide("slow");		
-		// $('.div3 .left .content').css('display', 'none');
+	$('.div3 .left').mouseleave(function(){
+		$(".div3 .left .content").fadeOut("slow","linear");		
 	});
 	$('.div3 .right').mouseenter(function(){
-		$('.div3 .right .content').show("slow");
-		// $('.div3 .right .content').css('display', 'block');
+		$('.div3 .right .content').fadeIn("slow");
 	});
 	$('.div3 .right').mouseleave(function(){	
-		$('.div3 .right .content').hide("slow");			
-		// $('.div3 .right .content').css('display', 'none');
+		$('.div3 .right .content').fadeOut("slow");			
 	});
 	
 	/* 第四帧的鼠标移入效果 */
 	$('.div4').mouseenter(function(){
-		function timeout() {
+		function timeout1() {
 			$(".div4 .left").animate({ 
 		    	top: "4px",
-			}, 300);
+			}, 500);
 		}
 		function shake1() {
 			$(".div4 .left").animate({ 
 		    	top: "2px",
-			}, 30);
+			}, 20);
 			$(".div4 .left").animate({ 
 			    top: "6px",
+			}, 20);
+		}
+		function getback() {
+			$(".div4 .left").animate({ 
+		    	top: "4px",
 			}, 30);
 		}
-		setInterval(shake1, 60);
+		function shakes_left() {
+			shake1();
+			shake1();
+			shake1();
+			shake1();
+			shake1();
+			shake1();
+			getback();
+			timeout1();
+		}
+		setInterval(shakes_left, 60);
+
+
+		function timeout2() {
+			$(".div4 .right_shakes").animate({ 
+		    	right: "54px",
+			}, 500);
+		}
+		function shake2() {
+			$(".div4 .right_shakes").animate({ 
+		    	right: "52px",
+			}, 20);
+			$(".div4 .right_shakes").animate({ 
+			    right: "56px",
+			}, 20);
+		}
+		function getback2() {
+			$(".div4 .right_shakes").animate({ 
+		    	right: "54px",
+			}, 20);
+		}
+		function shake2_shake() {
+			shake2();
+			shake2();
+			shake2();
+			shake2();
+			shake2();
+			shake2();
+			getback2();
+			timeout2();
+		}
+
+
+		function timeout3() {
+			$(".div4 .right_shakes").animate({ 
+		    	right: "125px",
+			}, 500);
+		}
+		function shake3() {
+			$(".div4 .right_shakes").animate({ 
+		    	right: "123px",
+			}, 20);
+			$(".div4 .right_shakes").animate({ 
+			    right: "127px",
+			}, 20);
+		}
+		function getback3() {
+			$(".div4 .right_shakes").animate({ 
+		    	right: "125px",
+			}, 20);
+		}
+		function shake3_shake() {
+			shake3();
+			shake3();
+			shake3();
+			shake3();
+			shake3();
+			shake3();
+			getback3();
+			timeout3();
+		}
 
 		var shake2_right = $(".div4 .right_shakes").css("right");
 		if(shake2_right == "54px") {
-			function shake2() {
-				$(".div4 .right_shakes").animate({ 
-			    	right: "52px",
-				}, 30);
-				$(".div4 .right_shakes").animate({ 
-				    right: "56px",
-				}, 30);
-			}
-			setInterval(shake2, 60);
+			setInterval(shake2_shake, 60);
 		} else if(shake2_right == "125px") {
-			function shake2() {
-				$(".div4 .right_shakes").animate({ 
-			    	right: "123px",
-				}, 30);
-				$(".div4 .right_shakes").animate({ 
-				    right: "127px",
-				}, 30);
-			}
-			setInterval(shake2, 60); 
+			setInterval(shake3_shake, 60); 
+		} else {
+			setInterval(shake3_shake, 60); 
 		}
 		
 
@@ -91,19 +148,19 @@ window.onload = function() {
 
 	/* 第七帧的动画效果 */
 	$('.div7 .right .flyme_wrap').mouseenter(function(){
-		$('.div7 .right .flyme').show("slow");
+		$('.div7 .right .flyme').fadeIn("slow");
 		$('.div7 .left .flyme_p').css('color', '#767676');
 	});
 	$('.div7 .right .flyme_wrap').mouseleave(function(){			
-		$('.div7 .right .flyme').hide("slow");
+		$('.div7 .right .flyme').fadeOut("slow");
 		$('.div7 .left .flyme_p').css('color', '#bbbdbf');
 	});
 	$('.div7 .right .unlock_wrap').mouseenter(function(){
-		$('.div7 .right .unlock').show("slow");
+		$('.div7 .right .unlock').fadeIn("slow");
 		$('.div7 .left .unlock_p').css('color', '#767676');
 	});
 	$('.div7 .right .unlock_wrap').mouseleave(function(){			
-		$('.div7 .right .unlock').hide("slow");
+		$('.div7 .right .unlock').fadeOut("slow");
 		$('.div7 .left .unlock_p').css('color', '#bbbdbf');
 	});
 
