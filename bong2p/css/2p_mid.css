@@ -4,6 +4,9 @@
 	border: 0;
 	font-family: "Lantinghei SC";
 }
+body {
+	font-family: "Lantinghei SC";
+}
 .allwrap {
 	width: 100%;
 	margin: 0 auto;
@@ -47,7 +50,7 @@
 	display: block;
 	width: 150px;
 	height: 220px;
-	top: 200px;
+	top: 250px;
 }
 .div1 .feather .bak {
 	position: absolute;
@@ -55,18 +58,21 @@
 	width: 100px;
 	height: 60px;
 	margin-left: 50px;
-	top: 420px;
+	top: 470px;
 }
 .div1 .left .twop img {
 	display: inline-block;
 	width: 100px;
 	height: 55px;
 	margin-left: 55px;
+	margin-bottom: 20px;
+	margin-top: 20px;
 	float: left;
 }
 .div1 .left .twop p {
 	display: inline-block;
 	font-size: 40px;
+	margin-top: 20px;
 	margin-left: 20px;
 }
 .div1 .buy {
@@ -91,7 +97,7 @@
 }
 .div1 .right img {
 	display: block;
-	width: 400px;
+	width: 430px;
 	margin-top: 50px;
 	margin-left: 40px;
 }
@@ -114,7 +120,7 @@
 	position: absolute;
 	margin-top: 100px;
 	width: 300px;
-	bottom: -30px;
+	bottom: -50px;
 }
 .div2 .img .img1 {
 	margin-left: 100px;
@@ -126,7 +132,7 @@
 }
 .div2 .img .img3 {
 	z-index: 777;
-	margin-left: 410px;
+	margin-left: 430px;
 }
 .div2 .guide {
 	height: 400px;
@@ -218,14 +224,14 @@
 }
 .div3 .left	{
 	height: 530px;
-	background: url("../img/2p/3-1.png");
+	background: url("http://bongads.b0.upaiyun.com/image/bongcn/2p/3-1.png");
 	background-size: cover;
 }
 .div3 .left .content {
 	display: none;
 	width: 100%;
 	height: 530px;
-	background: url("../img/2p/3-1-2.png");
+	background: url("http://bongads.b0.upaiyun.com/image/bongcn/2p/3-1-2.png");
 	background-size: cover;
 }
 .div3 .left .content .wrap {
@@ -259,14 +265,14 @@
 }
 .div3 .right {
 	height: 530px;
-	background: url("../img/2p/3-2.png");
+	background: url("http://bongads.b0.upaiyun.com/image/bongcn/2p/3-2.png");
 	background-size: cover;
 }
 .div3 .right .content {
 	display: none;
 	width: 100%;
 	height: 530px;
-	background: url("../img/2p/3-2-2.png");
+	background: url("http://bongads.b0.upaiyun.com/image/bongcn/2p/3-2-2.png");
 	background-size: cover;
 }
 .div3 .right .content .wrap {
@@ -361,7 +367,7 @@
 	width: 100%;
 	height: 520px;
 	color: #fff;
-	background: url("../img/2p/5.jpg") no-repeat;
+	background: url("http://bongads.b0.upaiyun.com/image/bongcn/2p/5.jpg") no-repeat;
 	background-size: cover;
 	padding-top: 225px;
 	margin: 0 auto;
@@ -383,7 +389,7 @@
 	width: 100%;
 	height: 520px;
 	color: #fff;
-	background: url("../img/2p/6.jpg") no-repeat;
+	background: url("http://bongads.b0.upaiyun.com/image/bongcn/2p/6.jpg") no-repeat;
 	background-size: cover;
 	padding-top: 270px;
 	margin: 0 auto;
@@ -421,7 +427,7 @@
 	margin-bottom: 20px;
 }
 .div7 .left .partner img {
-	width: 230px;
+	width: 220px;
 	float: left;
 }
 .div7 .left .partner p {
@@ -454,7 +460,7 @@
 	display: inline-block;
 	width: 216px;
 	height: 310px;
-	background: url("../img/2p/7-2-1.jpg");
+	background: url("http://bongads.b0.upaiyun.com/image/bongcn/2p/7-2-1.jpg");
 	background-size: cover;
 	float: left;
 }
@@ -462,7 +468,7 @@
 	display: inline-block;
 	width: 223px;
 	height: 310px;
-	background: url("../img/2p/7-3-1.png");
+	background: url("http://bongads.b0.upaiyun.com/image/bongcn/2p/7-3-1.png");
 	background-size: cover;
 	float: left;
 }
@@ -532,6 +538,7 @@
 	margin-left: 10px;
 	margin-top: 5px;
 	vertical-align: middle;
+	color: #f5f5f5;
 	float: left;
 }
 .div8 .weight {

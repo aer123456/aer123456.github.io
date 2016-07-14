@@ -11,21 +11,21 @@ window.onload = function() {
 
 	/* 第二帧的鼠标移入移出效果 */
 	$('.div2').mouseenter(function(){
-		var bottom = $(".div2 .img .img1").css("bottom");
-		if(bottom == "-30px"){
-			// $(".div2 .img .img1").animate({
-			// 	bottom: "-35px",
-			// }, 1500);
+		var bottom = $(".div2 .img .img2").css("bottom");
+		var width = $(".div2 .img .img2").css("width");
+		if(width == "220px") {
+			$(".div2 .img .img2").animate({
+				bottom: "-15px",
+			}, 1500);
+		} else if (width == "300px") {
 			$(".div2 .img .img2").animate({
 				bottom: "-8px",
 			}, 1500);
-			// $(".div2 .img .img2").animate({
-			// 	bottom: "-15px",
-			// }, 700);
-			// $(".div2 .img .img3").animate({
-			// 	bottom: "-35px",
-			// }, 1500);
-		}
+		} else if (width == "450px") {
+			$(".div2 .img .img2").animate({
+				bottom: "-15px",
+			}, 1500);
+		} 
 	});
 
 	/* 第三帧的鼠标移入移出效果 */
@@ -169,8 +169,11 @@ window.onload = function() {
 		$('.time hr').animate({
 			width: "280px",
 		}, 3500);
+		setTimeout('$(".div8 .span1").css("color", "#767676")', 3500);
 		$('.weight hr').animate({
 			width: "60px",
 		}, 1000);
+		setTimeout('$(".div8 .span2").css("color", "#767676")', 1000);
+
 	});
 }; 
