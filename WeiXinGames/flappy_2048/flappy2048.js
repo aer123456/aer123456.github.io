@@ -98,7 +98,6 @@ var resize = function () {
  gameover.reposition();
  c2s.reposition();
  sndo.reposition();
- fbshare.reposition();
  playagain.reposition();
  
  
@@ -186,7 +185,6 @@ var gameLoaded = function () {
  game.div.appendChild(ground.canvas);
  game.div.appendChild(logo.img);
  game.div.appendChild(gameover.img);
- document.body.appendChild(fbshare.img);
  document.body.appendChild(playagain.img);
  game.div.appendChild(c2s.img);
  game.div.appendChild(sndo.div);
@@ -265,8 +263,6 @@ var doFlap = function () {
   gameover.hiding = true;
   c2s.showing = false;
   c2s.hiding = true;
-  fbshare.showing = false;
-  fbshare.hiding = true;
   playagain.showing = false;
   playagain.hiding = true;
   parody.div.style.display = 'none';
@@ -388,36 +384,6 @@ gameover.img.style.zIndex = '42069';
 gameover.reposition = function () {
  gameover.img.style.left = Math.floor((ww-626)/2)+'px';
  gameover.img.style.top = Math.floor(Math.cos(gameover.fr/32)*0 + (hh - 200 - 144 - 88)/2)+'px';
-}
-
-
-
-var fbshare = {}; // 592 x 80
-fbshare.a = -.2;
-fbshare.fr = 0;
-fbshare.showing = false;
-fbshare.hiding = true;
-fbshare.img = loadGameImage('image/fbshare.png');
-fbshare.img.style.border = '0px';
-fbshare.img.style.cursor = 'pointer';
-fbshare.img.border = 0;
-fbshare.img.style.position = 'absolute';
-fbshare.img.style.display = 'none';
-fbshare.img.style.opacity = 0;
-fbshare.img.style.zIndex = '142069';
-fbshare.reposition = function () {
- fbshare.img.style.left = Math.floor((ww-592)/2)+'px';
- fbshare.img.style.top = Math.floor(Math.cos(fbshare.fr/12)*5 + (hh + 150 + 80 - 88)/2)+'px';
-}
-fbshare.img.onclick = function () {
- FB.ui({
-   method: 'feed',
-//   link: 'http://flappy2048.com/',
-   name: 'Flappy 2048',
-   picture: 'image/fbthumb.jpg',
-   caption: '',
-   description: 'I scored '+points+' in Flappy 2048! Can you beat that?'
- }, function(response){});
 }
 
 
@@ -957,37 +923,7 @@ var oef = function () {
     }
    }
    
-   if (fbshare.showing) {
-    fbshare.a += .03;
-    if (fbshare.a >= 1) {
-     fbshare.a = 1;
-     fbshare.showing = false;
-    }
-    fbshare.img.style.opacity = fbshare.a;
-   }
-   if (fbshare.hiding) {
-    fbshare.a -= .1;
-    if (fbshare.a <= 0) {
-     fbshare.a = 0;
-     fbshare.hiding = false;
-    }
-    fbshare.img.style.opacity = fbshare.a;
-   }
-   if (fbshare.a > 0) {
-    fbshare.fr++;
-    fbshare.reposition();
-   }
-   if (fbshare.a > .01) {
-    if (!fbshare.visible) {
-     fbshare.visible = true;
-     fbshare.img.style.display = 'inline';
-    }
-   } else {
-    if (fbshare.visible) {
-     fbshare.visible = false;
-     fbshare.img.style.display = 'none';
-    }
-   }
+   
    
    if (playagain.showing) {
     playagain.a += .03;
@@ -1273,8 +1209,6 @@ var oef = function () {
      game.ended = true;
      gameover.hiding = false;
      gameover.showing = true;
-     fbshare.hiding = false;
-     fbshare.showing = true;
      playagain.hiding = false;
      playagain.showing = true;
      if (points > highscore) {
